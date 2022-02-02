@@ -1,7 +1,7 @@
 clear;
 
 H = [1 1e-1 1e-2 1e-3];
-dy = @(t, y) -2*t*y;  
+dy = @(t, y) -2*t*y;  %równanie różniczkowe
 
 subplot(2,1,1);
 plt = 1;
